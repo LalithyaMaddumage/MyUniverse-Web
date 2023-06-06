@@ -15,6 +15,8 @@ import Packages from './pages/packages';
 import Cards from './components/elements/cards';
 import PopUpMessage from './components/elements/popUpMessage';
 import MessangingPage from './pages/messangingPage';
+import Home from './pages/home';
+import HomeSectionOneImageView from './components/elements/homeSectionOneImageView';
 
 function App() {
   return (
@@ -34,6 +36,10 @@ function App() {
         <Route path="/card" element={<Cards />} />
         <Route path="/pop" element={<PopUpMessage />} />
         <Route path="/msg" element={<MessangingPage/>} />
+        <Route path="/home" element={<Home/>} />
+        <Route path="/homeImg" element={<HomeSectionOneImageView/>} />
+
+
 
 
 
