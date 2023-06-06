@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from '../components/common/header';
 import Background from '../components/common/background';
 
-const RegIndividual = () => {
+const RegCompany = () => {
   const [currentStep, setCurrentStep] = useState(1);
   const totalSteps = 4;
 
@@ -52,7 +52,7 @@ const RegIndividual = () => {
             {currentStep === 1 && (
               <div>
                 {/* Form fields for step 1 */}
-                <div className='h-[45px] mt-[28px] ml-[1145px]  font-Montserrat font-semibold leadding-[44px] font-[25px] text-3xl/[25px] ' >Register as Individual</div>
+                <div className='h-[45px] mt-[28px] ml-[1145px]  font-Montserrat font-semibold leadding-[44px] font-[25px] text-3xl/[25px] ' >Register as Company</div>
                 {/* <button
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                   onClick={handleNextStep}
@@ -159,30 +159,22 @@ const RegIndividual = () => {
             {currentStep === 3 && (
               <div>
                 {/* Form fields for step 3 */}
-                <div className='h-[45px] mt-[28px] ml-[1130px]  font-Montserrat font-semibold leadding-[44px] font-[25px] text-3xl/[25px] '>Register as Individual </div>
+                <div className='h-[45px] mt-[28px] ml-[1130px]  font-Montserrat font-semibold leadding-[44px] font-[25px] text-3xl/[25px] '>Register as Company </div>
                 <div className="box-border flex flex-row items-center p-[14px 75px 14px 20px] gap-[10px] mt-[35px]  ml-[881px]  ">
                 
                 <input
-                  className="absolute w-[284px] h-[50px] border-[1px] border-solid border-[#01B3BB] rounded-[10px] pl-[20px]  leading-[15px] placeholder:text-[rgba(30, 30, 30, 0.7)] font-normal font-inter text-[12px] leading-[15px]"
-                  placeholder="Enter Your First Name"
+                  className="absolute w-[588px] h-[50px] border-[1px] border-solid border-[#01B3BB] rounded-[10px] pl-[20px]  leading-[15px] placeholder:text-[rgba(30, 30, 30, 0.7)] font-normal font-inter text-[12px] leading-[15px]"
+                  placeholder="Enter Business Name"
                
                 />
                 
               </div>
-              <div className="box-border flex flex-row items-center p-[14px 75px 14px 20px] gap-[10px]   ml-[1185px]  ">
-                
-                <input
-                  className="absolute w-[284px] h-[50px] border-[1px] border-solid border-[#01B3BB] rounded-[10px] pl-[20px]  leading-[15px] placeholder:text-[rgba(30, 30, 30, 0.7)] font-normal font-inter text-[12px] leading-[15px]"
-                  placeholder="Enter Your Last name"
-               
-                />
-                
-              </div>
+              
               <div className="box-border flex flex-row items-center p-[14px 75px 14px 20px] gap-[10px] mt-[75px]   ml-[881px]  ">
                 
                 <input
                   className="absolute w-[588px] h-[50px] border-[1px] border-solid border-[#01B3BB] rounded-[10px] pl-[20px]  leading-[15px] placeholder:text-[rgba(30, 30, 30, 0.7)] font-normal font-inter text-[12px] leading-[15px]"
-                  placeholder="Your Phone Number"
+                  placeholder="Company Number"
                
                 />
                 
@@ -294,6 +286,11 @@ const RegIndividual = () => {
               CONTINUE
             </button>
             </div>
+               
+
+
+
+           
             </div>
           )}
         </div>
@@ -307,4 +304,4 @@ const RegIndividual = () => {
   )
 }
 
-export default RegIndividual
+export default RegCompany

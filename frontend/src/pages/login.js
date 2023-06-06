@@ -20,7 +20,7 @@ const Login = () => {
         <div class="flex flex-col z-10 ...">
           <div className="box-border flex flex-row items-center p-[14px 75px 14px 20px] gap-[10px] ml-[881px] mt-[428px]">
             <input
-              className="absolute w-[588px] h-[84px]  border-[1px] border-solid border-[#01B3BB] rounded-[10px] pl-[20px] placeholder:text-[rgba(30, 30, 30, 0.7)] font-normal font-inter text-xs-[12px] leading-[15px]"
+              className="absolute w-[588px] h-[84px]  border-[1px] border-solid border-[#01B3BB] rounded-[10px] pl-[20px]  placeholder:text-[rgba(30, 30, 30, 0.7)] font-normal font-inter text-xs-[12px] leading-[15px]"
               placeholder="Enter Your Email Address"
             />
           </div>
